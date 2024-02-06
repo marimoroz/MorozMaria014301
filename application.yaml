@@ -1,0 +1,19 @@
+spring:
+  servlet:
+    multipart:
+      max-file-size: 15MB
+      max-request-size: 15MB
+  datasource:
+    url: jdbc:postgresql://localhost:5432/document
+    username: postgres
+    password: 111
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: false
+allPath: /Users/morozmary/Desktop/test/
+document:
+  directory: documents
+  archive: archive
+secret:
+  key: 123176543234567890087654322345678900987654322345678909876543
